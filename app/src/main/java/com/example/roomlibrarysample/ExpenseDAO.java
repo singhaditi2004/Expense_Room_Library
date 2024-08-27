@@ -10,7 +10,7 @@ import java.util.List;
 @Dao
 public interface ExpenseDAO {
     @Query("select * from expense")
-    List<Expense> getExpense();
+    List<Expense> getAllExpense();
 
     @Insert
     void addEx(Expense exp);

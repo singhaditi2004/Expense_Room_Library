@@ -63,12 +63,33 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/save"
         android:layout_width="130dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="12dp"
         android:background="@android:color/holo_green_light"
         android:text="Save"
+        android:textAllCaps="false"
+        android:textSize="18dp" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/calculatate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:background="@android:color/holo_green_light"
+        android:text="Calculate Expenses"
+        android:textAllCaps="false"
+        android:textSize="18dp" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:background="@android:color/holo_green_light"
+        android:text="Show all expenses"
         android:textAllCaps="false"
         android:textSize="18dp" />
 </LinearLayout>
